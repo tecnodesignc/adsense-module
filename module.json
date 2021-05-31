@@ -1,0 +1,21 @@
+{
+  "name": "Adsense",
+  "alias": "space",
+  "description": "Adsense module for EncoreCMS",
+  "keywords": [
+    "Adsense",
+    "EncoreCMS",
+    "Ads"
+  ],
+  "version": "1.0.0",
+  "active": 1,
+  "priority": 1,
+  "providers": [
+    "Modules\\Adsense\\Providers\\RouteServiceProvider",
+    "Modules\\Adsense\\Providers\\AdsenseServiceProvider"
+  ],
+  "aliases": {
+    "Adsense": "Modules\\Adsense\\Facades\\AdsenseFacade"
+  },
+  "files": []
+}

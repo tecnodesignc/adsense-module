@@ -1,0 +1,44 @@
+{
+  "name": "tecnodesignc/adsense-module",
+  "type": "encore-module",
+  "description": "Adsense module for EncoreCMS",
+  "keywords": [
+    "encorecms",
+    "adsense",
+    "carrousel"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcos Rativa",
+      "email": "marcos21.009@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "support@tecnodesign.com.co",
+    "issues": "https://github.com/tecnodeisgignc/adsense-module/issues",
+    "source": "https://github.com/tecnodeisgignc/adsense-module"
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "composer/installers": "~1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6.0",
+    "orchestra/testbench": "3.5.*"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Modules\\Adsense\\": ".",
+      "Modules\\": "Modules/"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\Adsense\\": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
